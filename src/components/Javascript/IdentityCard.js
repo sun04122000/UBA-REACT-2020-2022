@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/IdentityCard.css'
+import '../Css/IdentityCard.css'
 
 
 const IdentityCard = (props) => {
