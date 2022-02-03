@@ -1,10 +1,9 @@
 import React from 'react'
-import img1 from './images/Meerpur/ICT_Meerpur/1.png'
-import img2 from './images/Meerpur/ICT_Meerpur/2.png'
-import img3 from './images/Meerpur/ICT_Meerpur/4.png'
+import img1 from '../../../images/Meerpur/ICT_Meerpur/1.png'
+import img2 from '../../../images/Meerpur/ICT_Meerpur/2.png'
+import img3 from '../../../images/Meerpur/ICT_Meerpur/4.png'
 
 import '../css/About.css'
-// import ReactCSSTransitionGroup from 'react-transition-group';
 
 const About = () => {
     return (

@@ -1,24 +1,20 @@
-// import React, { useState, useEffect, useRef } from 'react'
-// import Set from './home/Set'
-import IdentityCard from './home/IdentityCard'
-import { InitCard } from './home/InitCard'
-import { Images_sequence } from './home/Images_sequence'
-import food_kit from './home/images/Beladi/CycleDonation/covid.jpg'
-import cycle_donation from './home/images/Beladi/CycleDonation/i.jpg'
-import swacchta_hi_seva from './home/images/Chharba/PlasticFreeIndia_Chharba/i.jpeg'
-import director from './home/images/patron/director.JPG'
-import mparida from './home/images/patron/mprdaf.jpg'
-import ap from './home/images/patron/Ap.jpeg'
-import bhanu from './home/images/patron/bhanu.jpg'
-import Inspiration from './home/Inspiration'
+import IdentityCard from '../../components/Javascript/IdentityCard'
+import { InitCard } from '../../components/Javascript/InitCard'
+import { Images_sequence } from '../HomeScreen/Javascript/Images_sequence'
+import food_kit from '../../images/Beladi/CycleDonation/covid.jpg'
+import cycle_donation from '../../images/Beladi/CycleDonation/i.jpg'
+import swacchta_hi_seva from '../../images/Chharba/PlasticFreeIndia_Chharba/i.jpeg'
+import director from '../../images/patron/director.JPG'
+import mparida from '../../images/patron/mprdaf.jpg'
+import ap from '../../images/patron/Ap.jpeg'
+import bhanu from '../../images/patron/bhanu.jpg'
+import Inspiration from './Javascript/Inspiration'
 import { BsFillHeartFill } from 'react-icons/bs';
-// import "./home/css/Style.css"
-import { Work } from './home/Work'
+import { Work } from './Javascript/Work'
 import "./css/App.css"
-import About from './home/About'
+import About from './Javascript/About'
 import './css/Carousel.css';
-import ImageSlider from "./home/Slider";
-// import "./home/css/InitCard.css"
+import ImageSlider from "./Javascript/Slider";
 
 
 export const HomeScreen = () => {
