@@ -1,23 +1,3 @@
-<<<<<<< HEAD
-import IdentityCard from "../../components/Javascript/IdentityCard";
-import { InitCard } from "../../components/Javascript/InitCard";
-
-import {Footer} from "../../components/Javascript/Footer.js"
-
-import food_kit from "../../Images/Beladi/CycleDonation/covid.jpg";
-import cycle_donation from "../../Images/Beladi/CycleDonation/i.jpg";
-import swacchta_hi_seva from "../../Images/Chharba/PlasticFreeIndia_Chharba/i.jpeg";
-import director from "../../Images/patron/director.JPG";
-import mparida from "../../Images/patron/mprdaf.jpg";
-import ap from "../../Images/patron/Ap.jpeg";
-import bhanu from "../../Images/patron/bhanu.jpg";
-import Inspiration from "./Javascript/Inspiration";
-import { BsFillHeartFill } from "react-icons/bs";
-import { Work } from "./Javascript/Work";
-import "./css/App.css";
-import About from "./Javascript/About";
-import "./css/Carousel.css";
-=======
 import IdentityCard from '../../components/Javascript/IdentityCard'
 import { InitCard } from '../../components/Javascript/InitCard'
 import { Images_sequence } from '../HomeScreen/Javascript/Images_sequence'
@@ -34,7 +14,6 @@ import { Work } from './Javascript/Work'
 import "./css/App.css"
 import About from './Javascript/About'
 import './css/Carousel.css';
->>>>>>> sarveshwar
 import ImageSlider from "./Javascript/Slider";
 
 export const HomeScreen = () => {
