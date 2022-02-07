@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Inspiration.css'
 import Carousel from 'react-elastic-carousel';
-import imag from '../../../Images/Home/556x462.jpg'
+import imag from '../../../images/Home/556x462.jpg'
 
 const Inspiration = () => {
     return (
