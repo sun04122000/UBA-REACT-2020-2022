@@ -1,14 +1,15 @@
 import { HomeScreen } from "./screens/HomeScreen/HomeScreen";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import {InitCard_Events} from "./screens/Events/InitCard_Events"
-import "./App.css"
+import { ContactUs } from "./screens/HomeScreen/Javascript/ContactUs";
+import { FacultyTeam } from "./screens/HomeScreen/Javascript/FacultyTeam";
+
+
 
 function App() {
   return (
-    <>
-   <HomeScreen/>
-    {/* <InitCard_Events/> */}
-    </>
+
+<HomeScreen/>
+
   );
 }
 
