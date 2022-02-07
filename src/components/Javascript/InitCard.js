@@ -1,9 +1,11 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import '../Css/InitCard.css';
 
 
 
 export const InitCard = (props) => {
+  const navigate = useNavigate()
   return (
     <>
       <div id="f_card">
@@ -18,7 +20,7 @@ export const InitCard = (props) => {
           <div id="card_main">
             {props.initiative}
           </div>
-          <button id="know_card">Know More</button>
+          <button id="know_card" onClick={()=>navigate(`/initiative-detail/${props.init}/${props.village}`)}>Know More</button>
         </div>
       </div>
     </>

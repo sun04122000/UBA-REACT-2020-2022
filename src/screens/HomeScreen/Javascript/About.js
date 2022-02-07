@@ -16,8 +16,8 @@ const About = () => {
 
                             {/* <!--======= CASE PROGRESS BAR =========--> */}
 
-
-                            {/* <!--======= DONATION DETAILS =========--> */}
+ 
+                           {/* <!--======= DONATION DETAILS =========--> */}
                             <div className="donate-detail">
 
                                 {/* <!--======= TITTLE =========--> */}
