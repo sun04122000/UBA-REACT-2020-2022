@@ -1,6 +1,7 @@
 import IdentityCard from '../../components/Javascript/IdentityCard'
 import { InitCard } from '../../components/Javascript/InitCard'
 import { Images_sequence } from '../HomeScreen/Javascript/Images_sequence'
+import {Footer} from "../../components/Javascript/Footer.js"
 import food_kit from '../../Images/Beladi/CycleDonation/covid.jpg'
 import cycle_donation from '../../Images/Beladi/CycleDonation/i.jpg'
 import swacchta_hi_seva from '../../Images/Chharba/PlasticFreeIndia_Chharba/i.jpeg'
