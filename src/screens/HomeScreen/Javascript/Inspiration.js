@@ -1,7 +1,7 @@
 import React from 'react'
 import '../css/Inspiration.css'
 import Carousel from 'react-elastic-carousel';
-import imag from '../../../images/Home/556x462.jpg'
+import imag from '../../../Images/Home/556x462.jpg'
 
 const Inspiration = () => {
     return (
@@ -42,7 +42,7 @@ const Inspiration = () => {
               </section>
             </div>
   
-            {/* <!--======= RIGHT IMAGES =========--> */}
+            {/* <!--======= RIGHT Images =========--> */}
             <div className="col-md-6 with-bg-drk"> <img className="img-responsive" src={imag} alt="" /> </div>
           </div>
         </div>

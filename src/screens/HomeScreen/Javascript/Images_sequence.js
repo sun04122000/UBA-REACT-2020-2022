@@ -1,9 +1,9 @@
 
 import React from 'react'
-import img2 from '../../../images/Home/274img2.jpg'
-import img3 from '../../../images/Home/274img3.JPG'
-import img4 from '../../../images/Home/274img4.jpg'
-import img5 from '../../../images/Home/274img5.jpg'
+import img2 from '../../../Images/Home/274img2.jpg'
+import img3 from '../../../Images/Home/274img3.JPG'
+import img4 from '../../../Images/Home/274img4.jpg'
+import img5 from '../../../Images/Home/274img5.jpg'
 // import {Row,Col,Container} from 'react-bootstrap';
 
 export const Images_sequence = () => {
