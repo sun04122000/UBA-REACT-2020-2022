@@ -1,13 +1,13 @@
 import React from 'react';
 import "../../components/Css/Events_InitCard.css"
 import { Events_InitCard } from '../../components/Javascript/Events_InitCard'
-import e1 from '../../images/Events_image/swanpil1.jpeg'
-import e2 from '../../images/Events_image/i.jpg'
-import e3 from '../../images/Events_image/anuradha1.png'
-import e4 from '../../images/Events_image/varsha1.png'
-import e5 from '../../images/Events_image/archana1.png'
-import e6 from '../../images/Events_image/naveenKumar2.png'
-import e7 from '../../images/Events_image/Winter_school.jpg'
+import e1 from '../../Images/Events_image/swanpil1.jpeg'
+import e2 from '../../Images/Events_image/i.jpg'
+import e3 from '../../Images/Events_image/anuradha1.png'
+import e4 from '../../Images/Events_image/varsha1.png'
+import e5 from '../../Images/Events_image/archana1.png'
+import e6 from '../../Images/Events_image/naveenKumar2.png'
+import e7 from '../../Images/Events_image/Winter_school.jpg'
 
 export const InitCard_Events = () => {
   return <div>
