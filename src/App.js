@@ -8,11 +8,14 @@ import { Chharba } from "./screens/HomeScreen/Javascript/Villages/Chharba";
 import { Meerpur } from "./screens/HomeScreen/Javascript/Villages/Meerpur.js";
 import { Puranpur } from "./screens/HomeScreen/Javascript/Villages/Puranpur.js";
 import {InitCard_Events} from "./screens/Events/InitCard_Events"
+import { FacultyTeam } from "./screens/HomeScreen/Javascript/FacultyTeam";
+import { ContactUs } from "./screens/HomeScreen/Javascript/ContactUs";
+
 import "./App.css"
 function App() {
   return (
     <Router>
-      <HomeScreen />
+<HomeScreen/>
     </Router>
 
   );
