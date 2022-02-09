@@ -15,6 +15,7 @@ import "./css/App.css"
 import About from './Javascript/About'
 import './css/Carousel.css';
 import ImageSlider from "./Javascript/Slider";
+import FrontPageCarousel from "./Javascript/FrontPageCarousel";
 
 
 export const HomeScreen = () => {
@@ -23,7 +24,7 @@ export const HomeScreen = () => {
   return (
     <>
 
-
+      <FrontPageCarousel/>
       <About />
 
 

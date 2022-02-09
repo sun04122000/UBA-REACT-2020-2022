@@ -17,8 +17,8 @@ function ImageSlider() {
         cssEase: "linear"
     }
     return (
-        <Slider {...settings}>
-            <div className="card-wrapper">
+        <Slider className=" blog-card"{...settings}>
+            <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
                         <img src="carousel_images\Vaibhav_Bansal.jpeg" />
@@ -33,7 +33,7 @@ function ImageSlider() {
                     </div>
                 </div>
             </div>
-            <div className="card-wrapper">
+            <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
                         <img src="carousel_images\Pratibha_Deoraj.png" />
@@ -48,7 +48,7 @@ function ImageSlider() {
                     </div>
                 </div>
             </div>
-            <div className="card-wrapper">
+            <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
                         <img src="carousel_images\Roshan_Kumar.jpeg" />
@@ -63,7 +63,7 @@ function ImageSlider() {
                     </div>
                 </div>
             </div>
-            <div className="card-wrapper">
+            <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
                         <img src="carousel_images\Vishvendra_Singh.jpeg" />
@@ -78,7 +78,7 @@ function ImageSlider() {
                     </div>
                 </div>
             </div>
-            <div className="card-wrapper">
+            <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
                         <img src="carousel_images\Aastha_Upadhyay.jpeg" />
@@ -92,7 +92,7 @@ function ImageSlider() {
                         <h2>Aastha Upadhyay<span className="job-title">UBA,IIT ROORKEE</span></h2>
                     </div>
                 </div>
-            </div> <div className="card-wrapper">
+            </div> <div className="card-wrapper blog-card-wrapper">
                 <div className="card">
                     <div className="card-image">
                         <img src="carousel_images\Sarthak_Maheshwari.jpeg " />
