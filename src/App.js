@@ -35,12 +35,7 @@ function App() {
           <Route path = 'technology' element={<Technology />} />
           <Route path = 'other' element={<Other />} />
         </Route>
-        <Route exact path='/initiative-detail/:name/:village' element= {<Initiative_detail />} />
-    <Route>
-<HomeScreen/>
-    </Route>
-
-        
+        <Route exact path='/initiative-detail/:name/:village' element= {<Initiative_detail />} />       
       </Routes>
     </>
   );

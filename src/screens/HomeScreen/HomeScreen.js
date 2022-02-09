@@ -17,7 +17,6 @@ import './css/Carousel.css';
 import ImageSlider from "./Javascript/Slider";
 import FrontPageCarousel from "./Javascript/FrontPageCarousel";
 
-
 import {Footer} from "../../components/Javascript/Footer.js"
 
 export const HomeScreen = () => {
@@ -25,7 +24,6 @@ export const HomeScreen = () => {
 
   return (
     <>
-
       <FrontPageCarousel/>
       <About />
 
