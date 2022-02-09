@@ -42,7 +42,7 @@ const Inspiration = () => {
               </section>
             </div>
   
-            {/* <!--======= RIGHT IMAGES =========--> */}
+            {/* <!--======= RIGHT Images =========--> */}
             <div className="col-md-6 with-bg-drk"> <img className="img-responsive" src={imag} alt="" /> </div>
           </div>
         </div>
