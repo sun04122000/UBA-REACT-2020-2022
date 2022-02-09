@@ -1,0 +1,9 @@
+.init_detail_upper, .init_detail_mid1, .init_detail_mid2, .init_detail_lower{
+    margin-top: 50px !important;
+}
+
+.init_detail_mid2{
+    background-color: #ecc731;
+    border-radius: 4px;
+}
+
