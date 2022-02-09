@@ -18,6 +18,8 @@ import ImageSlider from "./Javascript/Slider";
 import FrontPageCarousel from "./Javascript/FrontPageCarousel";
 
 
+import {Footer} from "../../components/Javascript/Footer.js"
+
 export const HomeScreen = () => {
 
 
@@ -108,6 +110,7 @@ export const HomeScreen = () => {
       <section ><br/>
         <center><h2>Be the change <span className="Heart"><BsFillHeartFill /></span> <strong>You wish to see</strong>.</h2></center>
       </section>
+      <Footer/>
     </>
   )
 }

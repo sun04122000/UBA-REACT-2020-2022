@@ -7,6 +7,9 @@ import { Chharba } from "./screens/HomeScreen/Javascript/Villages/Chharba";
 import { Meerpur } from "./screens/HomeScreen/Javascript/Villages/Meerpur.js";
 import { Puranpur } from "./screens/HomeScreen/Javascript/Villages/Puranpur.js";
 import {InitCard_Events} from "./screens/Events/InitCard_Events"
+import { FacultyTeam } from "./screens/HomeScreen/Javascript/FacultyTeam";
+import { ContactUs } from "./screens/HomeScreen/Javascript/ContactUs";
+
 import "./App.css"
 import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
 import InitiativeScreen from "./screens/InitiativeScreen/InitiativeScreen";
@@ -33,6 +36,9 @@ function App() {
           <Route path = 'other' element={<Other />} />
         </Route>
         <Route exact path='/initiative-detail/:name/:village' element= {<Initiative_detail />} />
+    <Route>
+<HomeScreen/>
+    </Route>
 
         
       </Routes>
