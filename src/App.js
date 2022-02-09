@@ -1,5 +1,6 @@
 import { HomeScreen } from "./screens/HomeScreen/HomeScreen";
 import { BrowserRouter as Router, Route } from "react-router-dom";
+
 import { Header } from "./screens/HomeScreen/Javascript/Header.js";
 import { StudentTeam } from "./screens/HomeScreen/Javascript/StudentTeam";
 import { Beladi } from "./screens/HomeScreen/Javascript/Villages/Beladi";
@@ -13,6 +14,17 @@ function App() {
     <Router>
       <HomeScreen />
     </Router>
+=======
+import {InitCard_Events} from "./screens/Events/InitCard_Events"
+import "./App.css"
+
+function App() {
+  return (
+    <>
+   <HomeScreen/>
+    {/* <InitCard_Events/> */}
+    </>
+
   );
 }
 
